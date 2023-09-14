@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kumbh+Sans&display=swap");
+
+.course-overview button {
+    text-decoration: none;
+    color: rgb(254, 253, 253);
+    padding: 10px 20px;
+    background-color: #1a1fba;
+    
+    
+  }
+  
+  /* Change the color of navbar links on hover */
+  .course-overview button:hover {
+    background-color: #100e0e;
+    color: rgb(242, 236, 236);
+  }
+
+.course-overview h2{
+    font-size:30px;
+    text-align: center;
+}
+
+
+.course{
+    width:30rem;
+    height:25rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.course-view1{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.course-view2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.course p{
+  font-family: "DM Serif Display", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight:800;
+  color:rgb(228, 232, 231);
+  background-color: black;
+  opacity:90%;
+  height:89px;
+  padding:20px 70px;
+  font-size:16px;
+  margin:-30px auto;
+}
+
+.course button{
+    margin: 12% auto;
+    border-radius:20px;
+    border:none;
+    
+}
+
+.course a{
+    color:white;
+}
+
+
+
+.course h3{
+    font-size:30px;
+    color:antiquewhite;
+    margin:60px auto;
+}
+
+.top-section{
+    width:100%;
+    height:100px;
+}
+
+/* styling for the footer */
+
+.footer{
+    background-color: rgb(21, 20, 20);
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.footer h2,h3{
+    color:rgb(194, 194, 194);
+}

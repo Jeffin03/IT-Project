@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kumbh+Sans&display=swap");
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 224, 226);
+}
+
+/* styling for the main content */
+.main-div {
+  width: 70rem;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(227, 233, 239);
+}
+
+/* Styling for the intro */
+
+.intro h1 {
+  font-size: 35px;
+}
+
+strong{
+    color:red;
+}
+
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 900;
+}
+
+.intro p {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.main-div a {
+  text-decoration: none;
+  color: rgb(254, 253, 253);
+  padding: 10px 20px;
+  background-color: #1a1fba;
+  width: 250px;
+  height: 105px;
+  border-radius: 10px;  
+}
+
+/* Change the color of navbar links on hover */
+.main-div a:hover {
+  background-color: #100e0e;
+  color: rgb(242, 236, 236);
+}
+
+/* styling for the course overview */
+
+.course-overview h2{
+    font-size:30px;
+    text-align: center;
+}
+
+
+.course{
+    width:18rem;
+    height:20rem;
+    background-color: aqua;
+    margin: 10px;
+    /* padding: 20px; */
+    text-align: center;
+}
+
+.course-view1{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.course-view2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.course p{
+  font-family: "DM Serif Display", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight:800;
+  color:rgb(228, 232, 231);
+  background-color: black;
+  opacity:80%;
+  font-size:16px;
+  margin:-10px auto;
+}
+
+.course button{
+    margin: 20% auto;
+    
+}
+
+button{
+    border:none;
+}
+
+
+
+.course h3{
+    font-size:30px;
+    color:antiquewhite;
+    margin:60px auto;
+}
+
+.top-section{
+    width:100%;
+    height:100px;
+}
+
+/* Styling for the facilities */
+
+.audi{
+    width:16rem;
+    height:14rem;
+   
+    
+}
+
+.audi h3{
+    margin: 50px auto;
+    color:antiquewhite;
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+    background-color: #100e0e;
+    opacity:70%;   
+}
+
+.amph{
+    width:16rem;
+    height:14rem;
+   
+    
+}
+
+.amph h3{
+    margin: 50px auto;
+    color:antiquewhite;
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+    background-color: #100e0e;
+    opacity:70%;   
+}
+
+.studio{
+    width:16rem;
+    height:14rem;
+   
+    
+}
+
+.studio h3{
+    margin: 50px auto;
+    color:antiquewhite;
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+    background-color: #100e0e;
+    opacity:70%;   
+}
+
+.jam{
+    width:16rem;
+    height:14rem;
+   
+    
+}
+
+.jam h3{
+    margin: 50px auto;
+    color:antiquewhite;
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+    background-color: #100e0e;
+    opacity:70%;   
+}
+
+.services h2{
+    font-size:30px;
+    text-align: center;
+}
+
+.faci{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* styling for the footer */
+
+.footer{
+    background-color: rgb(21, 20, 20);
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.footer h2,h3{
+    color:rgb(194, 194, 194);
+}
+

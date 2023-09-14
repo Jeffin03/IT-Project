@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="Project/IT-Project/css/content.css" />
+    <link rel="stylesheet" href="css/content.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -12,8 +12,10 @@
   </head>
 
   <body>
+    
+    <div class="main-div">  <!-- container for the main content -->
     <div class="intro">
-      <h1>Welcome</h1>
+      <h1><center>Discover The <strong>Musicality in You</strong></center></h1>
       <p>
         Welcome to Issac's School of Music: Where Passion Meets Mastery! Dive
         into the world of music with us and explore your passion for melody and
@@ -26,75 +28,106 @@
 
     <div class="course-overview">
       <h2><u>Courses We Offer</u></h2>
-      <div class="course">
-        <div class="piano">
+      <div class="course-view1">
+        <div class="course" style="background-image: url(./images/piano.jpg);">
+          <div class="top-section" >
           <h3>Piano Essentials</h3>
+        </div>
+
           <p>
             Discover the joy of creating beautiful melodies at your fingertips.
           </p>
           <button><a href="courses/piano.html">Read More</a></button>
         </div>
-        <div class="Guitar">
+
+
+        <div class="course" style="background-image: url(./images/guitar.jpg);">
+          <div class="top-section">
           <h3>Guitar Mastery</h3>
+        </div>
           <p>
             Strum, pick, and play your way to musical excellence with our Guitar
             Course.
           </p>
           <button><a href="courses/guitar.html">Read More</a></button>
         </div>
-        <div class="Drums">
+
+
+        <div class="course" style="background-image: url(./images/drums1.jpg);">
+          <div class="top-section">
           <h3>Drums Mastery</h3>
+        </div>
           <p>
             Get ready to unleash your inner beat and make some noise with us.
           </p>
           <button><a href="courses/drums.html">Read More</a></button>
         </div>
-        <div class="Violin">
+      </div>
+      
+      <div class="course-view2">
+        <div class="course" style="background-image: url(./images/violin.jpeg);background-size: cover;">
+          <div class="top-section">
           <h3>Violin Mastery</h3>
+        </div>
           <p>
             Dive into the world of music and embrace the enchanting sounds of
             the violin with our Violin Course
           </p>
           <button><a href="courses/violin.html">Read More</a></button>
         </div>
-        <div class="music-prod">
+
+        <div class="course" style="background-image: url(./images/music_prod.jpg);">
+          <div class="top-section">
           <h3>Music Production Masterclass</h3>
+        </div>
           <p>
             Unlock the secrets of the music industry with our Music Production
             Course
           </p>
           <button><a href="courses/music_prod.html">Read More</a></button>
         </div>
-        <div class="vocals">
+
+        <div class="course" style="background-image: url(./images/vocals.jpg); ">
+          <div class="top-section">
           <h3>Vocal Mastery</h3>
+        </div>
           <p>
             Unleash your voice, and experience the beauty of a truly global
             vocal education.
           </p>
           <button><a href="courses/vocals.html">Read More</a></button>
         </div>
+
       </div>
       <!-- course div -->
     </div>
     <hr />
     <div class="services">
-      <h2>Facilities</h2>
+      <h2><u>Facilities</h2>
+
       <div class="faci">
-        <div class="audi">
+        <div class="facir1">
+        <div class="audi" style="background-image: url(images/audi.jpg); background-size: cover;">
           <h3>5 Auditoriums</h3>
         </div>
-        <div class="amph">
+        <div class="amph" style="background-image:url(images/amth.jpeg);background-size: cover;">
           <h3>2 Amphitheaters</h3>
         </div>
-        <div class="studio">
+      </div>
+
+      <div class="facir2">
+        <div class="studio" style="background-image: url(images/studio.jpg);background-size: cover;">
           <h3>2 Recording Studios</h3>
         </div>
-        <div class="jam">
+        <div class="jam" style="background-image: url(images/jam-room.jpeg);background-size: cover;">
           <h3>3 Jam Rooms</h3>
         </div>
       </div>
     </div>
-    <hr />
+    </div>
+  </div>   <!-- div for the content end here -->
+  
+  <!-- container for the footer -->
     <div class="footer">
       <div class="left-section">
         <h2>Have a question?</h2>
@@ -105,11 +138,12 @@
         </h3>
       </div>
       <div class="social-media">
-        <h2>Follow us</h2>
+        <h2>Follow us<br>
         <i class="fab fa-facebook"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-linkedin"></i>
+      </h2>
       </div>
     </div>
   </body>
