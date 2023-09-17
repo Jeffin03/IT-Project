@@ -1,5 +1,8 @@
 # Issac's School of Music: Internet Technologies Project
 
+## Overview
+This project was developed as a part of a semester project for the "Internet Technologies" course. It focuses on using HTML frames and framesets to create a web-based application for Issac's School of Music.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Description](#description)
@@ -9,9 +12,6 @@
 - [Technologies Used](#technologies-used)
 - [Contributors](#contributors)
 - [License](#license)
-
-## Overview
-This project was developed as a part of a semester project for the "Internet Technologies" course. It focuses on using HTML frames and framesets to create a web-based application for Issac's School of Music.
 
 ## Description
 The project demonstrates the use of HTML frames and framesets to create a structured web application for Issac's School of Music. It includes features such as:
@@ -48,5 +48,4 @@ To run the project, follow these steps:
 ## Contributors
 - [Jeffin Issac](https://github.com/Jeffin03)
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+
